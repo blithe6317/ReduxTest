@@ -64,6 +64,12 @@
                 store.dispatch({type: 'INCREMENT'})
             }, 200)
         })
+
+    function hightAndLow(str){
+        var arry = str.split(' ');
+        return Math.max(...arry)+" "+ Math.min(...arry);
+    }
+    hightAndLow("1 2 3 4 5 ")
 </script>
 </body>
 </html>
